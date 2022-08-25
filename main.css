@@ -1,0 +1,138 @@
+.logo{
+    width: 60px;
+    height: 70px;
+
+    border-radius: 80px;
+    
+}
+header{
+
+    width: 100%;
+    height: 100px;
+
+    background-color: #3b6bbb;
+    padding:10px;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+
+}
+
+.menu{
+    list-style:none;
+
+    
+    display:flex;
+    text-justify: distribute;
+    
+}
+
+.menu li {
+    color: #fff;
+    font-size:  120%;
+    font-family: cursive;
+
+    display:block;
+
+    margin-left:24px
+}
+
+
+h1{
+    color:#fff;
+    font-family: cursive;
+
+    display: flex;
+
+}
+
+
+h3{
+ color: #004aad;
+ 
+}
+
+p{
+    color: #3b6bbb;
+    align-items: center;
+
+}
+
+button{
+    color:#ffff;
+}
+
+img{
+    width: 110%;
+}
+
+body{
+    background-image: url(https://export-download.canva.com/dyUiM/DAFJ06dyUiM/28/0/0001-33388191391.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220821%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220821T032317Z&X-Amz-Expires=61810&X-Amz-Signature=1161d0e5d67ce0b9ee16a3300552653abaf001b1712dc938fbf1cccf60a35cf0&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Cazuza.jpg&response-expires=Sun%2C%2021%20Aug%202022%2020%3A33%3A27%20GMT);
+    
+}
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: aqua;
+}
+.container {
+    display:flex;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 240px;
+    height: 450px;
+    margin: 80px;
+    border-radius: 15px;
+}
+.card-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+    background-image: url('https://www.oetker.com.br/Recipe/Recipes/oetker.com.br/br-pt/baking/image-thumb__40008__RecipeDetail/bolo-de-aniversario-de-chocolate.jpg');
+
+}
+
+.car-2{
+    background-image: url('https://areademulher.r7.com/wp-content/uploads/2022/03/receita-de-pudim-tradicional-de-leite-condensado.jpg');
+}
+.card h2{
+    color:#6299e2;
+    font-family: cursive;
+    align-items: center;
+}
+
+.card p{
+    color:#004aad;
+    font-family:cursive;
+    padding:10px;
+}
+
+.card a{
+    background-color: #3b6bbb;
+    color:white;
+    padding: 15px 20px;
+    display:block;
+    text-align: center;
+    margin:20px 50px
+}
+
+.card:hover{
+    background-color: #6aa1eb;
+    color: white;
+    cursor:pointer;
+    transform:scale(1.04);
+    transition: all 1s ease;
+}
